@@ -21,8 +21,8 @@ export default class Exp extends Component {
                         <i className="icon-dot" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Core committee member at IEEE Computer Society <span>2020-Present</span></h2>
-                        <p>Coordinator for Hackbattle</p>
+                        <h2>Core Committee Member at IEEE Computer Society <span>2020-Present</span></h2>
+                        
                       </div>
                     </div>
                   </article>
