@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <p className="footer-text">
-          Designed &amp; built by <span>Akshita Verma</span>
+          Designed &amp; built by <span>Akshita Verma </span>
         </p>
       </div>
     </footer>
