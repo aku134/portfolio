@@ -9,8 +9,8 @@ export default function Contact() {
       <div className="contact-wrapper">
         <div className="contact-text">
           <p>
-            I'm currently open to internship and full-time opportunities in ML engineering,
-            data science, and software engineering. Whether you have a question, a project idea,
+            I'm currently open to full-time opportunities in ML/AI engineering and
+            data science Whether you have a question, a project idea,
             or just want to connect — feel free to reach out!
           </p>
         </div>
