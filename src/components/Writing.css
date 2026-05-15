@@ -1,0 +1,65 @@
+.writing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.writing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.writing-card:hover {
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+.writing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.writing-platform {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.writing-arrow {
+  color: var(--text-muted);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.writing-card:hover .writing-arrow {
+  color: var(--accent-light);
+  transform: translate(2px, -2px);
+}
+
+.writing-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.writing-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.writing-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

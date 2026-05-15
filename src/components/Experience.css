@@ -1,0 +1,92 @@
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.exp-company {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.exp-location {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.exp-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: right;
+}
+
+.exp-role {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.exp-role-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-light);
+}
+
+.exp-period {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.exp-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exp-bullets li {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding-left: 16px;
+  position: relative;
+  line-height: 1.65;
+}
+
+.exp-bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 12px;
+  top: 2px;
+}
+
+.exp-tags {
+  padding-top: 4px;
+}
+
+@media (max-width: 580px) {
+  .exp-header {
+    flex-direction: column;
+  }
+  .exp-roles {
+    text-align: left;
+  }
+}
