@@ -29,6 +29,13 @@ export default function Hero() {
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">Get in touch</a>
               <a href="#projects" className="btn btn-outline">View projects</a>
+              <a href="/portfolio/resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+                <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+                  <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
+                </svg>
+                Resume
+              </a>
             </div>
             <div className="hero-links">
               <a href="mailto:akshitav@andrew.cmu.edu" className="hero-link" aria-label="Email">

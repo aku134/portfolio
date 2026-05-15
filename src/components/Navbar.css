@@ -62,6 +62,21 @@
   color: #fff;
 }
 
+.nav-resume-btn {
+  font-size: 13px !important;
+  color: var(--accent-light) !important;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  padding: 5px 14px;
+  border-radius: 6px;
+  font-weight: 500 !important;
+  transition: background 0.2s, color 0.2s !important;
+}
+
+.nav-resume-btn:hover {
+  background: rgba(124, 58, 237, 0.12);
+  color: #fff !important;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;

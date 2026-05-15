@@ -24,6 +24,9 @@ export default function Navbar() {
               <a href={`#${l.toLowerCase()}`}>{l}</a>
             </li>
           ))}
+          <li>
+            <a href="/portfolio/resume.pdf" target="_blank" rel="noreferrer" className="nav-resume-btn">Resume</a>
+          </li>
         </ul>
 
         <button className="hamburger" onClick={() => setOpen(o => !o)} aria-label="Menu">
